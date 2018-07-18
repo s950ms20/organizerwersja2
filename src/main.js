@@ -7,7 +7,7 @@ import 'firebase/firestore'
 import VueRouter from 'vue-router'
 import Routes from './routes'
 
-Vue.use(VueResource);
+Vue.use(VueResource); 
 Vue.use(VueFire)
 Vue.use(VueRouter)
 
@@ -30,5 +30,5 @@ firestore.settings(settings);
 new Vue({
   el: '#app',
   render: h => h(App),
-  router: router
+  router: router 
 })

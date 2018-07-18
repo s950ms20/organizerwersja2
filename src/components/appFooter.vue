@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    data () {
+    data () { 
         return {
             msg: 'all rights reserved. have some fun: code yourself ;)'
         }

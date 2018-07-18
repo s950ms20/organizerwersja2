@@ -6,7 +6,7 @@
         <li class="linav"><router-link to="/addtrack" exact>Add Track</router-link></li><br>
         <!-- <li class="tempo"><router-link to="/showtrack" exact>Just a temporary 'Show Tracks' button</router-link></li> -->
     </ul>
-</div>
+</div> 
 </template>
 
 <script>

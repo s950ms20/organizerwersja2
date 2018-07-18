@@ -15,7 +15,7 @@
         <option :value="project" v-for="
         (project, key) of projects" v-bind:key="key" selected>
         {{project.title}}      
-        </option> 
+        </option>   
           
     </select>
     <!-- <p><input type="text" v-model="parentproject.id" size="46" placeholder="Link to your track on clyp"></p> -->

@@ -6,7 +6,7 @@
     <input v-model="shortDesc" size="46" placeholder="Short description">
     <br/><br/>
     <button class="myButton" type="submit">Add New Project</button>
-    <br>
+    <br> 
 </form>
     </div>
 </template>
