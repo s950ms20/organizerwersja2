@@ -1,0 +1,44 @@
+$pannelsWidth: 560px;
+$defaultBgkColor:  #00527B;
+
+
+.panels {
+    background: $defaultBgkColor;
+    color: white;
+    width: $pannelsWidth;
+    padding: 30px;
+    border-radius: 1em;
+    margin: 20px auto 20px auto;
+    border: 1px solid black;
+    text-align: left;
+
+    input {
+        float: auto;
+        margin: 5px;
+    }
+
+    .inlineclass {
+        display: inline-block;
+    }
+
+    .myButton {
+        border-radius: 10px;
+        float: right;
+        background-color: white;
+        border: 1px solid black;
+        padding: 10px;
+        color: black;
+    }
+
+    .extrapadding {
+        padding-left: 30px;
+    }
+
+    .shortinfo {
+        font-style: italic;
+        font-size: 80%;
+        justify-content: flex-end
+    }
+
+
+    }
